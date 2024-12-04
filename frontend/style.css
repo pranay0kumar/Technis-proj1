@@ -1,0 +1,62 @@
+/* styles.css */
+
+/* General body styles */
+body {
+    background-color: #f8f9fa; /* Light background color */
+    font-family: Arial, sans-serif; /* Font family */
+}
+
+/* Navbar styles */
+.navbar {
+    margin-bottom: 20px; /* Space below the navbar */
+}
+
+/* Card styles */
+.card {
+    margin-bottom: 20px; /* Space between cards */
+}
+
+/* Footer styles */
+footer {
+    background-color: #343a40; /* Dark background for footer */
+    color: white; /* White text color */
+    padding: 10px 0; /* Padding for footer */
+    position: relative; /* Positioning */
+    bottom: 0; /* Stick to bottom */
+    width: 100%; /* Full width */
+}
+
+/* Form styles */
+.form-group {
+    margin-bottom: 15px; /* Space between form groups */
+}
+
+/* Button styles */
+.btn {
+    width: 100%; /* Full width buttons */
+}
+
+/* Validation feedback styles */
+.invalid-feedback {
+    display: none; /* Hide feedback by default */
+}
+
+.was-validated .form-control:invalid ~ .invalid-feedback {
+    display: block; /* Show feedback when invalid */
+}
+
+.was-validated .form-control:valid ~ .invalid-feedback {
+    display: none; /* Hide feedback when valid */
+}
+
+/* Centering text */
+.text-center {
+    text-align: center; /* Center text */
+}
+
+/* Additional styles for responsiveness */
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 15px; /* Adjust margin for smaller screens */
+    }
+}
